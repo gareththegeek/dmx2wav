@@ -1,4 +1,4 @@
-# mus2midi
+# dmx2wav
 
 A library for converting dmx format pcm audio files found in Doom wads to wave format.
 
