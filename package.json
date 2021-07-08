@@ -1,0 +1,32 @@
+{
+  "name": "dmx2wav",
+  "version": "1.0.0",
+  "description": "Library to convert dmx format 3 audio (e.g. from Doom wads) to wave format",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "jest",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gareththegeek/dmx2wav.git"
+  },
+  "author": "gareththegeek",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gareththegeek/dmx2wav/issues"
+  },
+  "homepage": "https://github.com/gareththegeek/dmx2wav#readme",
+  "devDependencies": {
+    "@types/jest": "^26.0.24",
+    "@types/node": "^16.0.1",
+    "jest": "^27.0.6",
+    "ts-jest": "^27.0.3",
+    "ts-node": "^10.0.0",
+    "typescript": "^4.3.5"
+  },
+  "dependencies": {
+    "buffer": "^6.0.3"
+  }
+}
