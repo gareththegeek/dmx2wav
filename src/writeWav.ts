@@ -1,3 +1,4 @@
+const Buffer = require('buffer/').Buffer
 import Dmx from './interfaces/Dmx'
 
 const RiffChunkSize = 12
