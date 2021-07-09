@@ -1,9 +1,13 @@
 {
   "name": "dmx2wav",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Library to convert dmx format 3 audio (e.g. from Doom wads) to wave format",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
+  "files": [
+    "dist/index.d.ts",
+    "dist/**/*.js"
+  ],
   "scripts": {
     "test": "jest",
     "build": "tsc"
